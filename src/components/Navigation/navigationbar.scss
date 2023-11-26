@@ -1,7 +1,7 @@
 .navigation-fixed {
   position: fixed;
   bottom: 0;
-  width: 400px;
+  width: 100%;
   background-color: white;
   border-bottom-left-radius:2rem;
   border-bottom-right-radius:2rem;
@@ -12,5 +12,11 @@
     justify-content: space-between;
     .navItem {
     }
+  }
+}
+
+@media (min-width: 400px) {
+  .navigation-fixed {
+    max-width:400px
   }
 }

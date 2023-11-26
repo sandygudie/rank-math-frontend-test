@@ -21,8 +21,8 @@ export default function Index() {
   };
 
   return (
-    <div className="navigation-fixed">
-      <div className="navigation-bar">
+    <div className='navigation-fixed'>
+      <div className='navigation-bar'>
         {navLists.map((list) => (
         
           <IconButton

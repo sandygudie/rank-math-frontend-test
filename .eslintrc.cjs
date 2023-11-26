@@ -17,7 +17,8 @@ module.exports = {
       { allowConstantExport: true },
       
     ],
-    "react/prop-types": 0,
-    "quotes": [2, "single", { "avoidEscape": true }]
+    'react/prop-types': 0,
+    'quotes': [2, 'single'],
+    'jsx-quotes': ["error", "prefer-single"]
   },
 }

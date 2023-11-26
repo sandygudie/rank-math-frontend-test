@@ -2,13 +2,13 @@
   background-color: white;
   position: fixed;
   top: 0;
-  width: 400px;
+  width: 100%;
   z-index: 9999;
 
   .navItems {
     display: flex;
     align-items: center;
-    padding: 1em;
+    padding: 1rem 0.5rem;
     justify-content: space-between;
     position: relative;
 
@@ -34,7 +34,6 @@
         width: 100%;
         display: block;
 
-
         .listItems-text {
           display: flex;
           align-items: center;
@@ -45,9 +44,17 @@
           .list-icon {
             font-size: 1rem;
           }
-
         }
       }
+    }
+  }
+}
+
+@media (min-width: 400px) {
+  .header-container{
+    max-width:400px;
+    .navItems {
+          padding: 1rem;
     }
   }
 }

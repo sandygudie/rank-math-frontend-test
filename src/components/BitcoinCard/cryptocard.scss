@@ -1,5 +1,5 @@
 .crypto-card {
-  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+  padding: 1rem;
   border-radius: 0.8rem;
   background-color: white;
   box-shadow: 0 25px 25px -25px #0003;
@@ -24,7 +24,8 @@
   .crypto-value {
     margin-top: 0.7rem;
     .crypto-value-text {
-      font-size: 1.7rem;
+      font-size: 1.5rem;
+
       color: var(--dark-gray);
       font-weight: 500;
     }
@@ -56,5 +57,14 @@
     background-color: var(--body-color);
     transition: 0.5s ease-in;
     overflow: hidden;
+  }
+}
+
+@media (min-width: 500px) {
+  .crypto-card {
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    .crypto-value-text {
+      font-size: 1.8rem !important;
+    }
   }
 }

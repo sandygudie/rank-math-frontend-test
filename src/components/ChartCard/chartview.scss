@@ -13,7 +13,6 @@
     .chart-info-lower {
       display: flex;
       align-items: center;
-      justify-content: space-between;
       .text-lower {
         font-size: 0.8rem;
         color: #9a9bb0;
@@ -22,12 +21,15 @@
     .chart-info-higher {
       display: flex;
       align-items: center;
-      justify-content: space-between;
       .text-higher {
         font-size: 0.8rem;
         color: var(--light-gray);
       }
     }
+  }
+  .area-chart-display {
+    width: 220px !important;
+    height: 70px !important;
   }
   .chart-bottom {
     display: flex;
@@ -35,10 +37,19 @@
     position: absolute;
     bottom: 0.9rem;
     left: 1rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     gap: 0.24rem;
     .dollar-rate {
       color: var(--light-black);
+    }
+  }
+}
+
+@media (min-width: 400px) {
+  .chart-view {
+    .area-chart-display {
+      width: 350px !important;
+      height: 110px !important;
     }
   }
 }

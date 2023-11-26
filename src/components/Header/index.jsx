@@ -21,17 +21,17 @@ export default function Index({ title }) {
     setToggle(!toggle);
   };
   return (
-    <header className="header-container">
-      <div className="navItems">
+    <header className='header-container'>
+      <div className='navItems'>
         <IconButton icon={<RiArrowLeftSLine size={30} />} />
-        <h1 className="headerTitle">{title}</h1>
+        <h1 className='headerTitle'>{title}</h1>
         <div>
           <IconButton
             handleClick={handleToggle}
             icon={<BiDotsVerticalRounded size={25} />}
           />
           {toggle ? (
-            <div className="menuLists">
+            <div className='menuLists'>
               {menuData.map((list) => {
                 return (
                   <button
@@ -42,12 +42,12 @@ export default function Index({ title }) {
                           : '1px solid #f1f5f8',
                       color: list.id === menuData.length - 1 ? 'red' : 'black',
                     }}
-                    className="listItems"
+                    className='listItems'
                     key={list.id}
                   >
-                    <div className="listItems-text">
+                    <div className='listItems-text'>
                       <span>{list.name}</span>{' '}
-                      <span className="list-icon">{list.icon}</span>
+                      <span className='list-icon'>{list.icon}</span>
                     </div>
                   </button>
                 );

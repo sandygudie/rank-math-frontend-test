@@ -15,7 +15,7 @@ export const chartData = [
     higher: '6.857',
     dollarRate: '5.483',
     areaStroke: '#feb23b',
-    areaFill: '#ffefdb8a',
+    areaFill: '#fbe6ce',
     period: 'Week',
   },
   {
