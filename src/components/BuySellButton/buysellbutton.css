@@ -1,0 +1,30 @@
+.buysell-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.buysell-container .buysell-button {
+  box-shadow: 0 25px 25px -25px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.8rem;
+}
+.buysell-container .buysell-button .buy-dollar-icon svg {
+  background-image: linear-gradient(0deg, #1d71f1 0%, #17c7fb 100%);
+  color: white;
+  font-weight: bold;
+  border-radius: 100%;
+  padding: 0.5rem;
+}
+.buysell-container .buysell-button .sell-dollar-icon svg {
+  background-image: linear-gradient(0deg, #fa23a2 0%, #ff677c 100%);
+  color: white;
+  font-weight: bold;
+  border-radius: 100%;
+  padding: 0.5rem;
+}
+.buysell-container .buysell-button .btn-text {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--light-black);
+}/*# sourceMappingURL=buysellbutton.css.map */

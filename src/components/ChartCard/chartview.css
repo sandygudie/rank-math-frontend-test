@@ -1,0 +1,42 @@
+.chart-view {
+  border-radius: 0.8rem;
+  background-color: white;
+  box-shadow: 0 25px 25px -25px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.chart-view .chart-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 1rem 1rem;
+}
+.chart-view .chart-info .chart-info-lower {
+  display: flex;
+  align-items: center;
+}
+.chart-view .chart-info .chart-info-lower .text-lower {
+  font-size: 0.8rem;
+  color: #9a9bb0;
+}
+.chart-view .chart-info .chart-info-higher {
+  display: flex;
+  align-items: center;
+}
+.chart-view .chart-info .chart-info-higher .text-higher {
+  font-size: 0.8rem;
+  color: var(--light-gray);
+}
+.chart-view .chart-bottom {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0.9rem;
+  left: 1rem;
+  font-size: 0.8rem;
+  gap: 0.24rem;
+}
+.chart-view .chart-bottom .dollar-rate {
+  color: var(--light-black);
+}/*# sourceMappingURL=chartview.css.map */

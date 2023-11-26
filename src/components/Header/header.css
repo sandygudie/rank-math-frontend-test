@@ -1,0 +1,54 @@
+.header-container {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.header-container .navItems {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  justify-content: space-between;
+  position: relative;
+}
+.header-container .navItems .headerTitle {
+  font-size: 1.3rem;
+  color: var(--dark-gray);
+  font-weight: 500;
+}
+.header-container .navItems .menuLists {
+  width: 140px;
+  padding-left: 1rem;
+  position: absolute;
+  box-shadow: 8px 8px 24px 0px rgb(178, 180, 203);
+  background-color: white;
+  top: 3em;
+  z-index: 1;
+  border-radius: 0.8rem;
+  right: 1rem;
+}
+.header-container .navItems .menuLists .listItems {
+  font-size: 0.8rem;
+  width: 100%;
+  display: block;
+}
+.header-container .navItems .menuLists .listItems .listItems-text {
+  display: flex;
+  align-items: center;
+  padding: 0.9em 0.9rem 0.7rem 0;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.header-container .navItems .menuLists .listItems .listItems-text .list-icon {
+  font-size: 1rem;
+}
+
+@media (min-width: 400px) {
+  .header-container {
+    max-width: 400px;
+  }
+  .header-container .navItems {
+    padding: 1rem;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,11 @@
+.tabs-container {
+  padding: 0.7rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabs-container .tab-button {
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  padding: 0.4rem 1rem;
+}/*# sourceMappingURL=tabs.css.map */

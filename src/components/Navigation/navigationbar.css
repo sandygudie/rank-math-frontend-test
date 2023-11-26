@@ -1,0 +1,20 @@
+.navigation-fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.navigation-fixed .navigation-bar {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+@media (min-width: 400px) {
+  .navigation-fixed {
+    max-width: 400px;
+  }
+}/*# sourceMappingURL=navigationbar.css.map */

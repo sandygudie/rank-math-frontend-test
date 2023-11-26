@@ -1,0 +1,10 @@
+.iconbutton {
+  color: var(--light-gray);
+  font-weight: bold;
+  backface-visibility: hidden;
+}
+.iconbutton :hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05) rotate(0.02deg);
+  color: var(--dark-gray);
+}/*# sourceMappingURL=iconbutton.css.map */
