@@ -28,8 +28,8 @@
     }
   }
   .area-chart-display {
-    width: 220px !important;
-    height: 70px !important;
+    width: 250px !important;
+    height: 80px !important;
   }
   .chart-bottom {
     display: flex;
@@ -45,7 +45,7 @@
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 350px) {
   .chart-view {
     .area-chart-display {
       width: 350px !important;
