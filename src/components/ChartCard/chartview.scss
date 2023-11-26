@@ -1,0 +1,44 @@
+.chart-view {
+  border-radius: 0.8rem;
+  background-color: white;
+  box-shadow: 0 25px 25px -25px #0003;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1.5rem;
+  .chart-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem 1rem 1rem;
+    .chart-info-lower {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .text-lower {
+        font-size: 0.8rem;
+        color: #9a9bb0;
+      }
+    }
+    .chart-info-higher {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .text-higher {
+        font-size: 0.8rem;
+        color: var(--light-gray);
+      }
+    }
+  }
+  .chart-bottom {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0.9rem;
+    left: 1rem;
+    font-size: 0.9rem;
+    gap: 0.24rem;
+    .dollar-rate {
+      color: var(--light-black);
+    }
+  }
+}

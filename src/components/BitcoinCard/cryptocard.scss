@@ -1,0 +1,60 @@
+.crypto-card {
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 0.8rem;
+  background-color: white;
+  box-shadow: 0 25px 25px -25px #0003;
+  .crypto-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .crypto-left {
+      display: flex;
+      align-items: center;
+      gap: 0.9375rem;
+      .crypto-title {
+        font-size: 0.75rem;
+        color: var(--dark-gray);
+      }
+    }
+    .crypto-currency {
+      font-size: 0.75rem;
+      color: var(--light-gray);
+    }
+  }
+  .crypto-value {
+    margin-top: 0.7rem;
+    .crypto-value-text {
+      font-size: 1.7rem;
+      color: var(--dark-gray);
+      font-weight: 500;
+    }
+    .crypto-value-subtext {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 0.23rem;
+      .crypto-value-dollars {
+        color: var(--light-gray);
+        font-weight: 500;
+        font-size: 1rem;
+      }
+      .crypto-value-percent {
+        border-radius: 3.125rem;
+        font-size: 0.75rem;
+        background-color: var(--light-red);
+        color: var(--white-color);
+        padding: 0.4em 0.7rem;
+        font-weight: 500;
+      }
+    }
+  }
+  .down-arrow-icon {
+    text-align: center;
+  }
+  .btn-toggle {
+    border-radius: 0.8rem;
+    background-color: var(--body-color);
+    transition: 0.5s ease-in;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,53 @@
+.header-container {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 400px;
+  z-index: 9999;
+
+  .navItems {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+    position: relative;
+
+    .headerTitle {
+      font-size: 1.3rem;
+      color: var(--dark-gray);
+      font-weight: 500;
+    }
+
+    .menuLists {
+      width: 140px;
+      padding-left: 1rem;
+      position: absolute;
+      box-shadow: 8px 8px 24px 0px rgba(178, 180, 203, 1);
+      background-color: white;
+      top: 3em;
+      z-index: 1;
+      border-radius: 0.8rem;
+      right: 1rem;
+
+      .listItems {
+        font-size: 0.8rem;
+        width: 100%;
+        display: block;
+
+
+        .listItems-text {
+          display: flex;
+          align-items: center;
+          padding: 0.9em 0.9rem 0.7rem 0;
+          justify-content: space-between;
+          font-weight: 500;
+
+          .list-icon {
+            font-size: 1rem;
+          }
+
+        }
+      }
+    }
+  }
+}

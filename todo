@@ -1,0 +1,9 @@
+@REM set up prettier
+@REM set up lint
+@REM set up husky
+@REM make good commit messages
+write good read me
+how to name components(index or the name)
+fix font(download into the project)
+add hover effect to the buysell button
+rewrite component bases on standard practices
