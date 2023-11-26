@@ -8,7 +8,7 @@ export default function Index({ selectedIndex, handleTabChange }) {
         return (
           <button
             style={{
-              color: selectedIndex === data.id ? '#ffff' : '#aeb8c4',
+              color: selectedIndex === data.id && '#ffff',
               backgroundColor:
                 selectedIndex === data.id ? '#aeb8c4' : 'transparent',
             }}
