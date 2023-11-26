@@ -1,6 +1,6 @@
-import { useState } from "react";
-import Tabs from "../Tabs/Index";
-import ChartView from "../ChartCard";
+import { useState } from 'react';
+import Tabs from '../Tabs/Index';
+import ChartView from '../ChartCard';
 
 
 export default function Index() {

@@ -1,8 +1,8 @@
-import "./iconbutton.scss";
+import './iconbutton.scss';
 
-export default function Index({ icon, size,handleClick }) {
+export default function Index({ icon, color, size,handleClick }) {
   return (
-    <button style={{fontSize:size}} onClick={()=>handleClick()} className="iconbutton">
+    <button style={{fontSize:size,color:color}} onClick={()=>handleClick()} className="iconbutton">
       {icon}
     </button>
   );

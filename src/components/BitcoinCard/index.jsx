@@ -1,8 +1,8 @@
-import { useState } from "react";
-import "./cryptocard.scss";
-import IconButton from "../IconButton";
-import { TbChevronCompactDown, TbChevronCompactUp } from "react-icons/tb";
-import BuySellButton from "../BuySellButton";
+import { useState } from 'react';
+import './cryptocard.scss';
+import IconButton from '../IconButton';
+import { TbChevronCompactDown, TbChevronCompactUp } from 'react-icons/tb';
+import BuySellButton from '../BuySellButton';
 
 export default function Index({
   icon,
@@ -51,12 +51,12 @@ export default function Index({
       </div>
       <div
         style={{
-          height: toggle ? "7rem" : "0",
+          height: toggle ? '7rem' : '0',
         }}
-        className={`btn-toggle`}
+        className={'btn-toggle'}
       >
-        <div style={{ padding: "1em" }}>
-          <BuySellButton width={"8rem"} height={"5rem"} />
+        <div style={{ padding: '1em' }}>
+          <BuySellButton width={'8rem'} height={'5rem'} />
         </div>
       </div>
     </div>

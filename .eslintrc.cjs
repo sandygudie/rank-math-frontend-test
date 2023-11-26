@@ -15,6 +15,9 @@ module.exports = {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
+      
     ],
+    "react/prop-types": 0,
+    "quotes": [2, "single", { "avoidEscape": true }]
   },
 }
