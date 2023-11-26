@@ -1,4 +1,4 @@
-import { Area, AreaChart } from 'recharts';
+import { Area, AreaChart, ResponsiveContainer } from 'recharts';
 import { PiDotOutlineFill } from 'react-icons/pi';
 import './chartview.scss';
 import { chartData } from '../../utlis/data';
@@ -65,27 +65,30 @@ export default function Index({ selectedIndex }) {
           </span>
         </div>
       </div>
-      <AreaChart
-        width={350}
-        height={110}
-        data={data}
-        margin={{
-          top: 5,
-          right: 30,
-          left: 0,
-          bottom: 0,
-        }}
-        className='area-chart-display'
-      >
-        <Area
-          strokeWidth={3}
-          type='monotone'
-          dataKey='uv'
-          fillOpacity={0.5}
-          stroke={chartData[selectedIndex].areaStroke}
-          fill={chartData[selectedIndex].areaFill}
-        />
-      </AreaChart>
+      <ResponsiveContainer width='100%' height={100}>
+        <AreaChart
+          width={350}
+          height={110}
+          data={data}
+          margin={{
+            top: 5,
+            right: 30,
+            left: 0,
+            bottom: 0,
+          }}
+          className='area-chart-display'
+        >
+          <Area
+            strokeWidth={3}
+            type='monotone'
+            dataKey='uv'
+            fillOpacity={0.5}
+            stroke={chartData[selectedIndex].areaStroke}
+            fill={chartData[selectedIndex].areaFill}
+            className='area-plot'
+          />
+        </AreaChart>
+      </ResponsiveContainer>
       <div className='chart-bottom'>
         <PiDotOutlineFill color={'#ffb736'} size={35} />
         <p className='dollar-rate'>
@@ -93,5 +96,5 @@ export default function Index({ selectedIndex }) {
         </p>
       </div>
     </div>
-  );
+  )
 }

@@ -27,10 +27,6 @@
       }
     }
   }
-  .area-chart-display {
-    width: 250px !important;
-    height: 80px !important;
-  }
   .chart-bottom {
     display: flex;
     align-items: center;
@@ -41,15 +37,6 @@
     gap: 0.24rem;
     .dollar-rate {
       color: var(--light-black);
-    }
-  }
-}
-
-@media (min-width: 350px) {
-  .chart-view {
-    .area-chart-display {
-      width: 350px !important;
-      height: 110px !important;
     }
   }
 }
