@@ -24,7 +24,6 @@ export default function Index() {
     <div className='navigation-fixed'>
       <div className='navigation-bar'>
         {navLists.map((list) => (
-        
           <IconButton
             key={list.id}
             handleClick={handleTabSelection}

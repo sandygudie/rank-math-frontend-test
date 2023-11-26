@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <main className='home-container'>
       <CryptoCard
-        icon={<SiBitcoinsv size={35} color={'#feb131'}/>}
+        icon={<SiBitcoinsv size={35} color={'#feb131'} />}
         title='Bitcoin'
         currency='BTC'
         value='3.529020'
@@ -15,8 +15,7 @@ export default function Index() {
         percent='-2.32%'
       />
       <Chart />
-      <BuySellButton  currency='BTC' width={'10rem' } height={'6rem'}/>
-   
+      <BuySellButton currency='BTC' width={'10rem'} height={'6rem'} />
     </main>
   );
 }
