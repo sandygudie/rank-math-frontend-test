@@ -4,50 +4,7 @@ import './chartview.scss';
 import { chartData } from '../../utlis/data';
 
 export default function Index({ selectedIndex }) {
-  const data = [
-    {
-      name: 'Page A',
-      uv: 2100,
-      pv: 2400,
-      amt: 2400,
-    },
-    {
-      name: 'Page B',
-      uv: 3000,
-      pv: 2398,
-      amt: 2210,
-    },
-    {
-      name: 'Page C',
-      uv: 2900,
-      pv: 2500,
-      amt: 2290,
-    },
-    {
-      name: 'Page D',
-      uv: 3180,
-      pv: 3908,
-      amt: 2000,
-    },
-    {
-      name: 'Page E',
-      uv: 3590,
-      pv: 4800,
-      amt: 2181,
-    },
-    {
-      name: 'Page F',
-      uv: 3290,
-      pv: 3800,
-      amt: 2500,
-    },
-    {
-      name: 'Page G',
-      uv: 3400,
-      pv: 4300,
-      amt: 2100,
-    },
-  ];
+
   return (
     <div className='chart-view'>
       <div className='chart-info'>
@@ -69,7 +26,7 @@ export default function Index({ selectedIndex }) {
         <AreaChart
           width={350}
           height={110}
-          data={data}
+          data={chartData[selectedIndex].data}
           margin={{
             top: 5,
             right: 30,

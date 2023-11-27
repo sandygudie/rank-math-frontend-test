@@ -1,4 +1,3 @@
-
 export const chartData = [
   {
     id: 0,
@@ -8,6 +7,51 @@ export const chartData = [
     areaStroke: '#00800187',
     areaFill: '#d5e7d28f',
     period: 'Day',
+    data: [
+      {
+        name: 'Page B',
+        uv: 3000,
+        pv: 2398,
+        amt: 2210,
+      },
+      {
+        name: 'Page C',
+        uv: 2900,
+        pv: 2500,
+        amt: 2290,
+      },
+      {
+        name: 'Page A',
+        uv: 3400,
+        pv: 2400,
+        amt: 2400,
+      },
+      {
+        name: 'Page E',
+        uv: 3590,
+        pv: 4800,
+        amt: 2181,
+      },
+      {
+        name: 'Page H',
+        uv: 3900,
+        pv: 2398,
+        amt: 2210,
+      },
+      {
+        name: 'Page I',
+        uv: 2500,
+        pv: 2500,
+        amt: 2290,
+      },
+
+      {
+        name: 'Page G',
+        uv: 3400,
+        pv: 4300,
+        amt: 2100,
+      },
+    ],
   },
   {
     id: 1,
@@ -17,6 +61,50 @@ export const chartData = [
     areaStroke: '#feb23b',
     areaFill: '#fbe6ce',
     period: 'Week',
+    data: [
+      {
+        name: 'Page A',
+        uv: 2100,
+        pv: 2400,
+        amt: 2400,
+      },
+      {
+        name: 'Page B',
+        uv: 3000,
+        pv: 2398,
+        amt: 2210,
+      },
+      {
+        name: 'Page C',
+        uv: 2900,
+        pv: 2500,
+        amt: 2290,
+      },
+      {
+        name: 'Page D',
+        uv: 3180,
+        pv: 3908,
+        amt: 2000,
+      },
+      {
+        name: 'Page E',
+        uv: 3590,
+        pv: 4800,
+        amt: 2181,
+      },
+      {
+        name: 'Page F',
+        uv: 3290,
+        pv: 3800,
+        amt: 2500,
+      },
+      {
+        name: 'Page G',
+        uv: 3400,
+        pv: 4300,
+        amt: 2100,
+      },
+    ],
   },
   {
     id: 2,
@@ -26,6 +114,52 @@ export const chartData = [
     areaStroke: '#f44336a6',
     areaFill: '#f443361f',
     period: 'Month',
+    data: [
+      {
+        name: 'Page A',
+        uv: 2900,
+        pv: 2400,
+        amt: 2400,
+      },
+      {
+        name: 'Page B',
+        uv: 2500,
+        pv: 2398,
+        amt: 2210,
+      },
+      {
+        name: 'Page H',
+        uv: 3900,
+        pv: 2398,
+        amt: 2210,
+      },
+      {
+        name: 'Page I',
+        uv: 2000,
+        pv: 2500,
+        amt: 2290,
+      },
+      {
+        name: 'Page C',
+        uv: 2300,
+        pv: 2500,
+        amt: 2290,
+      },
+
+      {
+        name: 'Page E',
+        uv: 3590,
+        pv: 4800,
+        amt: 2181,
+      },
+
+      {
+        name: 'Page G',
+        uv: 3400,
+        pv: 4300,
+        amt: 2100,
+      },
+    ],
   },
   {
     id: 3,
@@ -35,7 +169,50 @@ export const chartData = [
     areaStroke: '#2196f38a',
     areaFill: '#2196f31f',
     period: 'Year',
+    data: [
+      {
+        name: 'Page G',
+        uv: 3400,
+        pv: 4300,
+        amt: 2100,
+      },
+
+      {
+        name: 'Page C',
+        uv: 2900,
+        pv: 2500,
+        amt: 2290,
+      },
+      {
+        name: 'Page H',
+        uv: 3000,
+        pv: 2398,
+        amt: 2210,
+      },
+      {
+        name: 'Page I',
+        uv: 2500,
+        pv: 2500,
+        amt: 2290,
+      },
+      {
+        name: 'Page E',
+        uv: 3590,
+        pv: 4800,
+        amt: 2181,
+      },
+      {
+        name: 'Page A',
+        uv: 2100,
+        pv: 2400,
+        amt: 2400,
+      },
+      {
+        name: 'Page B',
+        uv: 3000,
+        pv: 2398,
+        amt: 2210,
+      },
+    ],
   },
 ];
-
-
