@@ -18,7 +18,7 @@ export default function Index({ width, height, currency }) {
         style={{ width: width, height: height }}
         className='buysell-button'
       >
-        <span className='sell-dollar-icon'>
+        <span className="sell-dollar-icon">
           <FaDollarSign size={17} />
         </span>
         <p className='btn-text'>Sell {currency}</p>
