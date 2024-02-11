@@ -1,13 +1,33 @@
-name: automerge
+name: Lint source code
 on:
-  pull_request:
-    branches: [main]
+  pull_request_target:
+    types:
+      - closed
+    branches:
+      - "main"
+
 jobs:
-  automerge:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    name: Lint with ESLint
     runs-on: ubuntu-latest
     steps:
-      - id: automerge
-        name: automerge
-        uses: "pascalgn/automerge-action@v0.16.2"
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update source code
+        run: npm run lint:fix
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: sandy
+          author_email: goodnewsandys@gmail.com
+          message: "testing commit lint"
+          add: "*.js"
