@@ -12,6 +12,11 @@ jobs:
     name: Lint with ESLint
     runs-on: ubuntu-latest
     steps:
+      - name: Echo branch
+        run: |
+          echo "${{ github.event.base_ref }}"
+          echo "${{ github.event.head_ref }}"
+
       - name: Checkout repo
         uses: actions/checkout@v4
 
