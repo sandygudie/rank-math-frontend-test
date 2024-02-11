@@ -12,7 +12,7 @@ export default function Index({ title }) {
   const [toggle, setToggle] = useState(false);
 
   const menuData = [
-    { id: 0, name: 'Edit', icon: <CiEdit /> },
+    { id: 0, name: "Edit", icon: <CiEdit /> },
     { id: 1, name: 'Courier Info', icon: <GoNote /> },
     { id: 2, name: 'Share', icon: <HiUpload /> },
     { id: 3, name: 'Remove', icon: <IoMdRemoveCircleOutline /> },

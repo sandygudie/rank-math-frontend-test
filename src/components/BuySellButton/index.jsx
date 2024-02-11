@@ -3,12 +3,12 @@ import { FaDollarSign } from 'react-icons/fa';
 
 export default function Index({ width, height, currency }) {
   return (
-    <div className='buysell-container'>
+    <div className="buysell-container">
       <button
         style={{ width: width, height: height }}
         className='buysell-button'
       >
-        <span className='buy-dollar-icon'>
+        <span className="buy-dollar-icon">
           {' '}
           <FaDollarSign size={17} />
         </span>

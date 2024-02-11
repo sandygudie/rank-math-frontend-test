@@ -15,7 +15,7 @@ export default function Index() {
         percent='-2.32%'
       />
       <Chart />
-      <BuySellButton currency='BTC' width={'10rem'} height={'6rem'} />
+      <BuySellButton currency="BTC" width={'10rem'} height={'6rem'} />
     </main>
   );
 }
